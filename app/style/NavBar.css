@@ -1,0 +1,26 @@
+*,
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.NavMenu {
+  top: 0;
+  left: 0;
+  align-items: center;
+  position: fixed;
+  justify-content: center;
+  background-color: green;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 20px;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.medsos {
+  cursor: pointer;
+}
